@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="javascript.js"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
 
 
 
-        function playGame() {
+        <!-- function playGame() {
 
             let humanScore = 0;
             let computerScore = 0;
@@ -88,8 +89,12 @@
             }
 
         }
-        playGame();
+        playGame(); -->
+
     </script>
+    <button onclick="playRound('rock',getComputerChoice)">Rock</button>
+    <button onclick="playGame('paper',getComputerChoice)">Paper</button>
+    <button onclick="playGame('scissors',getComputerChoice)">Scissors</button>
 </body>
 
 </html>
